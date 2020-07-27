@@ -22,3 +22,6 @@ module.exports = {
     ],
   },
 }
+module.exports = {
+  pathPrefix: "/reponame",
+}
