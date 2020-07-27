@@ -6,11 +6,10 @@
     "develop": "gatsby develop",
     "start": "gatsby develop",
     "build": "gatsby build",
-    "clean": "gatsby clean"
+    "clean": "gatsby clean",
     "deploy": "gatsby build --prefix-paths && gh-pages -d public"
   },
   "license": "0BSD",
-
   "dependencies": {
     "gatsby": "^2.23.12",
     "gatsby-theme-blog": "^2.0.0",
