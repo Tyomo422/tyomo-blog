@@ -1,8 +1,6 @@
 module.exports = {
-  module.exports = {
     pathPrefix: "/tyomo-blog",
-  }
-  plugins: [
+    plugins: [
     {
       resolve: `gatsby-theme-blog`,
       options: {},
