@@ -11,7 +11,7 @@ module.exports = {
     siteUrl: `https://tyomo422.github.io`,
     title: `tyomo-blog`,
     author: `tyomo`,
-    description: `My site description...`,
+    description: `ちょもの学習記録サイト`,
     social: [
       {
         name: `twitter`,
