@@ -8,7 +8,7 @@ import { Styled } from "theme-ui"
 export default function Bio() {
   return (
     <>
-      これは未経験ちょもの学習の記録である 
+      これは未経験ちょもの学習の記録である。
     </>
   )
 }
