@@ -1,4 +1,11 @@
 module.exports = {
+  siteMetadata: {
+    title: `Gatsby`,
+    siteUrl: `https://tyomo422.github .io`,
+    description: `Blazing fast modern site generator for React`,
+  },
+}
+module.exports = {
   pathPrefix: "/tyomo-blog",
   plugins: [
     {
@@ -23,5 +30,4 @@ module.exports = {
     ],
   },
 }
-
 
