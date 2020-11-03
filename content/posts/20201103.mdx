@@ -1,0 +1,22 @@
+ruby on rails でtwitterもどきを作っているときにつまづいたところ。
+
+sprockets::Rails::Helper::AssetNotFound in StaticPages
+
+と表示されRails6でapplication.jsが読み込まれない。という問題にぶちあたりました。
+
+https://qiita.com/yaaasuuu/items/1d29954fda1f5fb8fc27
+
+の記事曰く
+Rails6.0でwebpackerが追加された(表現あってるのかわからないけど)ことによって、
+webpackerがJavascriptをコンパイルできるようにしてあげなければいけないらしい。
+
+とのことなので
+
+<%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+
+を
+
+<%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+
+と直すことで解決に至った。
+以上。
